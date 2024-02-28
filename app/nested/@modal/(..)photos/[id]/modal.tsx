@@ -15,7 +15,7 @@ export function Modal({ children }: { children: React.ReactNode }) {
   }, [])
 
   function onDismiss() {
-    router.replace('/cart')
+    router.replace('/nested')
   }
 
   return createPortal(
